@@ -176,7 +176,7 @@ class Visualizations(CombinedComponent):
     # class attribute to a list
     # containing an initialized
     # instance of `LineChart` and `BarChart`
-    Children = [LineChart(), BarChart()]
+    children = [LineChart(), BarChart()]
 
     # Leave this line unchanged
     outer_div_type = Div(cls='grid')

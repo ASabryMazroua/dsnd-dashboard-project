@@ -2,7 +2,6 @@ from fastcore.xml import FT
 from fasthtml.common import Div
 
 class CombinedComponent:
-    children = []
 
     outer_div_type = Div(cls='container')
     
